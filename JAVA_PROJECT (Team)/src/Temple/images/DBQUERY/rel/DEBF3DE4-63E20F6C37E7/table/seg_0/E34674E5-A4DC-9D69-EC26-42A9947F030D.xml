@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34674E5-A4DC-9D69-EC26-42A9947F030D" name="totalsales">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:01:53 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tableNo" id="11D1BD3C-8C28-CBFE-A43A-4E23DF53EF37">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:10:23 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manuName" id="B0BDB1C5-69E1-1C29-AD52-0B1D2F4F76C3">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:12:11 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totalQuantity" id="BFC4A35F-B01C-2141-E357-CB76336F262E">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:09:44 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totalPrice" id="E634E613-F037-DD69-AAFC-73A8F1F9DFBE">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:09:44 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64672F33-B4A9-015B-F703-949C47E65B26" name="ManuFrame_PK">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:10:23 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D1BD3C-8C28-CBFE-A43A-4E23DF53EF37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

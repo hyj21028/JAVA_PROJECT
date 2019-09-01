@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44B24EA3-BAD5-5059-057A-E17BD75EB75A" name="AdminRegister">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:01:15 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="adminNo" id="B91CAF03-165C-1EB0-43F5-F524E16B4A8D">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:02:39 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adminId" id="86AD857B-59D4-BC23-5962-8CB7CC85D15B">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:02:39 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adminPw" id="5C30C6F7-34EC-682E-E35E-D3E74D977E32">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:02:39 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adminName" id="51A6B017-53AB-A8EC-D65E-7B51DB9023F0">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:02:39 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adminPosition" id="54C10B18-3316-122E-09DF-F913B56C7A8F">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:02:39 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A1AC98C-9E3B-6917-DA38-C5B3A9EB4E46" name="AdminRegister_PK">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:08:01 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86AD857B-59D4-BC23-5962-8CB7CC85D15B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

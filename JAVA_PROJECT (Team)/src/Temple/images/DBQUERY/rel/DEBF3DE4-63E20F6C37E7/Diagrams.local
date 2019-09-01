@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="1C7B1208-4907-0219-1BCB-E83B6A5D449B" name="CHICKEN HOUSE DB" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

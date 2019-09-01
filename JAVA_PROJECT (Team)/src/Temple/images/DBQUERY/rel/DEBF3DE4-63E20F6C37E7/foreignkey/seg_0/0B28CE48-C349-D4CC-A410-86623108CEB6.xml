@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B28CE48-C349-D4CC-A410-86623108CEB6" containerWithKeyObject="FA707D16-3444-A0AF-9716-140CD5863DCF" localFKIndex="6EFCD4EE-763B-CFAC-9AB6-C8EC3E219EFF" name="TableFrame_AdminRegister_FK">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:08:15 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<referredTableLongName>AdminRegister</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44B24EA3-BAD5-5059-057A-E17BD75EB75A</referredTableID>
+<keyObject>1A1AC98C-9E3B-6917-DA38-C5B3A9EB4E46</keyObject>
+<referredKeyID>1A1AC98C-9E3B-6917-DA38-C5B3A9EB4E46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>adminId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

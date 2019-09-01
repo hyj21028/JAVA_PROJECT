@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="CHICKEN HOUSE DB" id="DEBF3DE4-D4B7-C796-7967-63E20F6C37E7" mainViewID="1C7B1208-4907-0219-1BCB-E83B6A5D449B">
+<createdBy>it</createdBy>
+<createdTime>2019-05-16 03:00:18 UTC</createdTime>
+<ownerDesignName>DBQUERY</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
